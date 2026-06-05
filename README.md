@@ -46,21 +46,21 @@ qa-test-documentation-framework/
 ## What’s Inside
 
 **`templates/`** folder contains reusable QA resources, examples, and reference materials.
-- **[templates/best-practices/](templates/best-practices/)** - QA process references: defect life cycle, bug status workflow, severity vs priority.
-- **[templates/document-templates/](templates/document-templates/)** - reusable templates for bug reports, checklists, test cases, test plans, and traceability matrices.
-- **[templates/test-design-techniques/](templates/test-design-techniques/)** - examples of test design techniques: equivalence partitioning, boundary value analysis, decision tables, and state transitions.
-- **[templates/examples/](templates/examples/)** - reference QA artifacts: checklists, test cases, test plans, test strategies, test summary reports, user stories, QA metrics, coverage matrices, defect reports, and exploratory testing notes.
+- **[templates/best-practices/](templates/best-practices)** - QA process references: defect life cycle, bug status workflow, severity vs priority.
+- **[templates/document-templates/](templates/document-templates)** - reusable templates for bug reports, checklists, test cases, test plans, and traceability matrices.
+- **[templates/test-design-techniques/](templates/test-design-techniques)** - examples of test design techniques: equivalence partitioning, boundary value analysis, decision tables, and state transitions.
+- **[templates/examples/](templates/examples)** - reference QA artifacts: checklists, test cases, test plans, test strategies, test summary reports, user stories, QA metrics, coverage matrices, defect reports, and exploratory testing notes.
 
 **`tests/`** folder contains practical QA artifacts created during testing activities.
 - **[tests/requirements.md](requirements.md)** - functional requirements and testing scope.
 - **[tests/traceability-matrix.md](traceability-matrix.md)** - mapping between requirements, related test cases, and test coverage.
-- **[tests/test-data/](tests/test-data/)** - valid, invalid, and boundary test data.
-- **[tests/test-cases/](tests/test-cases/)** - functional and technique-based test cases.
-- **[tests/checklists/](tests/checklists/)** - feature validation checklists.
-- **[tests/exploratory-testing/](tests/exploratory-testing/)** - exploratory testing notes and findings.
-- **[tests/regression-testing/](tests/regression-testing/)** - regression testing suites for critical functionality.
-- **[tests/bug-reports/](tests/bug-reports/)** - defect reports with steps, expected/actual results, severity, priority, and evidence.
-- **[tests/evidence/](tests/evidence/)** - screenshots, recordings, and supporting materials for reported defects.
+- **[tests/test-data/](tests/test-data)** - valid, invalid, and boundary test data.
+- **[tests/test-cases/](tests/test-cases)** - functional and technique-based test cases.
+- **[tests/checklists/](tests/checklists)** - feature validation checklists.
+- **[tests/exploratory-testing/](tests/exploratory-testing)** - exploratory testing notes and findings.
+- **[tests/regression-testing/](tests/regression-testing)** - regression testing suites for critical functionality.
+- **[tests/bug-reports/](tests/bug-reports)** - defect reports with steps, expected/actual results, severity, priority, and evidence.
+- **[tests/evidence/](tests/evidence)** - screenshots, recordings, and supporting materials for reported defects.
 
 ## Author
 Created by **[Mary Pavlenko](https://www.linkedin.com/in/mary-pavlenko/)** to document a structured approach to QA testing, test design and defect reporting.
