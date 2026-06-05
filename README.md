@@ -3,9 +3,16 @@
 [![QA Documentation](https://img.shields.io/badge/QA-documentation-blue)]()
 [![Artifacts](https://img.shields.io/badge/artifacts-checklists%20%7C%20test%20cases%20%7C%20bugs-orange)]() [![ISTQB](https://img.shields.io/badge/testing-ISTQB%20inspired-lightgrey)]() 
 
-> **Note:** This repository demonstrates a structured QA workflow for a demo e-commerce application [Swag Labs](https://www.saucedemo.com/) \, including requirements, test cases, bug reports, regression testing and test evidence.
-
 ## Overview
+This repository is a personal QA documentation framework and knowledge base. \
+The goal of this repository is to collect, structure, and continuously enrich examples of high-quality QA documentation, reusable templates, best practices, test design techniques, and practical testing artifacts.
+
+It includes:
+- reusable QA templates and reference materials
+- examples of QA documents and best-practice artifacts
+- practical testing documentation and testing deliverables
+- test design techniques and QA process documentation
+
 This repository demonstrates how QA artifacts can be connected into one structured testing workflow:
 ```text
 Requirements → Test Cases → Checklists → Bug Reports → Evidence → Traceability
@@ -15,62 +22,45 @@ Requirements → Test Cases → Checklists → Bug Reports → Evidence → Trac
 
 ```text
 qa-test-documentation-framework/
+│
 ├── README.md
-├── requirements.md
-├── traceability-matrix.md
 │
 ├── templates/
-│   ├── test-design-techniques/
-│   ├── test-case-template.md
-│   ├── checklist-template.md
-│   ├── bug-report-template.md
-│   ├── defect-life-cycle-example.md
-│   ├── severity-vs-priority.md
-│   └── bug-status-workflow.md
+│   ├── best-practices/
+│   ├── document-templates/
+│   ├── examples/
+│   └── test-design-techniques/
 │
 └── tests/
+    ├── requirements.md
+    ├── traceability-matrix.md
+    ├── test-data/
     ├── test-cases/
     ├── checklists/
-    ├── bug-reports/
     ├── exploratory-testing/
     ├── regression-testing/
-    ├── test-data/
+    ├── bug-reports/
     └── evidence/
 ```
 
 ## What’s Inside
 
-- **[requirements.md](requirements.md)** -  functional requirements and testing scope for Swag Labs.
-- **[traceability-matrix.md](traceability-matrix.md)** - a mapping between functional requirements, related test cases and test coverage.
-- **[templates](templates)** - reusable QA templates, testing techniques and QA process documentation, includes: test case template; checklist template; bug report template; defect life cycle; severity vs priority; bug status workflow; test design techniques.
-- **[tests/test-cases/](tests/test-cases/)** - functional and technique-based test cases for Swag Labs, covered areas: login; product catalogue; shopping cart; checkout flow; logout; session management.
-- **[tests/checklists/](tests/checklists/)** - structured QA checklists for feature validation, covered areas: login page; product catalogue; shopping cart; checkout flow; logout flow; error validation; session management; responsive UI.
-- **[tests/bug-reports/](tests/bug-reports/)** - documented bug reports with steps to reproduce, expected result, actual result, severity, priority and evidence.
-- **[tests/exploratory-testing/](tests/exploratory-testing/)** - exploratory testing notes and edge-case investigations.
-- **[tests/regression-testing/](tests/regression-testing/)** - regression suites for critical functionality.
-- **[tests/test-data/](tests/test-data/)** - valid, invalid and boundary test data used during testing.
-- **[tests/evidence/](tests/evidence/)** - screenshots and testing evidence supporting reported defects.
+**`templates/`** folder contains reusable QA resources, examples, and reference materials.
+- **[templates/best-practices/](templates/best-practices/)** - QA process references: defect life cycle, bug status workflow, severity vs priority.
+- **[templates/document-templates/](templates/document-templates/)** - reusable templates for bug reports, checklists, test cases, test plans, and traceability matrices.
+- **[templates/test-design-techniques/](templates/test-design-techniques/)** - examples of test design techniques: equivalence partitioning, boundary value analysis, decision tables, and state transitions.
+- **[templates/examples/](templates/examples/)** - reference QA artifacts: checklists, test cases, test plans, test strategies, test summary reports, user stories, QA metrics, coverage matrices, defect reports, and exploratory testing notes.
 
-## Testing Techniques Used
-
-- Equivalence Partitioning
-- Boundary Value Analysis
-- Decision Table Testing
-- State Transition Testing
-
-## QA Skills Demonstrated
-
-- Functional testing
-- Test case design
-- Checklist-based testing
-- Bug Reporting
-- Exploratory testing
-- Regression testing
-- Test Design Techniques
-- Requirements Analysis
-- Traceability Matrix
+**`tests/`** folder contains practical QA artifacts created during testing activities.
+- **[tests/requirements.md](requirements.md)** - functional requirements and testing scope.
+- **[tests/traceability-matrix.md](traceability-matrix.md)** - mapping between requirements, related test cases, and test coverage.
+- **[tests/test-data/](tests/test-data/)** - valid, invalid, and boundary test data.
+- **[tests/test-cases/](tests/test-cases/)** - functional and technique-based test cases.
+- **[tests/checklists/](tests/checklists/)** - feature validation checklists.
+- **[tests/exploratory-testing/](tests/exploratory-testing/)** - exploratory testing notes and findings.
+- **[tests/regression-testing/](tests/regression-testing/)** - regression testing suites for critical functionality.
+- **[tests/bug-reports/](tests/bug-reports/)** - defect reports with steps, expected/actual results, severity, priority, and evidence.
+- **[tests/evidence/](tests/evidence/)** - screenshots, recordings, and supporting materials for reported defects.
 
 ## Author
-Created by Mary Pavlenko to document a structured approach to QA testing, test design and defect reporting.
-
-[LinkedIn](https://www.linkedin.com/in/mary-pavlenko/) • [Email](mailto:pavlenkompq@gmail.com)
+Created by **[Mary Pavlenko](https://www.linkedin.com/in/mary-pavlenko/)** to document a structured approach to QA testing, test design and defect reporting.
