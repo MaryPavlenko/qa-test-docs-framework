@@ -18,31 +18,6 @@ This repository demonstrates how QA artifacts can be connected into one structur
 Requirements → Test Cases → Checklists → Bug Reports → Evidence → Traceability
 ```
 
-## Repository Structure
-
-```text
-qa-test-documentation-framework/
-│
-├── README.md
-│
-├── templates/
-│   ├── best-practices/
-│   ├── document-templates/
-│   ├── examples/
-│   └── test-design-techniques/
-│
-└── tests/
-    ├── requirements.md
-    ├── traceability-matrix.md
-    ├── test-data/
-    ├── test-cases/
-    ├── checklists/
-    ├── exploratory-testing/
-    ├── regression-testing/
-    ├── bug-reports/
-    └── evidence/
-```
-
 ## What’s Inside
 
 **`templates/`** folder contains reusable QA resources, examples, and reference materials.
